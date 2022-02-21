@@ -1,0 +1,103 @@
+/*==================================
+  News-Single
+==================================*/
+#News-Single main {
+  margin: 50px 0 0;
+  .news{
+    padding: 60px 0 50px;
+    .container{
+      .content{
+        max-width: 1000px;
+        margin: 0 auto;
+        border-bottom: 2px solid #ebebeb;
+        padding: 0 0 50px;
+        .date{
+          @include Montserrat(400);
+          font-size: 16px;
+          left: .03em;
+          color: #9b9b9b;
+          margin: 0 0 20px;
+          display: block;
+          .job-info{
+            @include Noto_Sans(400);
+          }
+        }
+        .title{
+          font-size: 18px;
+          letter-spacing: .1em;
+          line-height: 28px;
+          border-bottom: 2px solid #ebebeb;
+          padding: 0 0 10px;
+          margin: 0 0 30px;
+        }
+        p{
+          letter-spacing: .05em;
+          line-height: 25.7px;
+          font-weight: 400;
+          text-align: justify;
+        }
+        figure{
+          margin: 30px 0 0;
+          img{
+            
+          }
+        }
+      }
+      .nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0 0;
+        .toList{
+          a{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 230px;
+            height: 50px;
+            background-color: #fff;
+            border: 3px solid #407dd0;
+            border-radius: 50px;
+            letter-spacing: .07em;
+            transition: .3s ease-in-out;
+            @include is-max(360px){
+              width: 200px;
+            }
+            &::after{
+              content: "";
+              display: block;
+              width: 7px;
+              height: 7px;
+              border-top: 2px solid #313131;
+              border-right: 2px solid #313131;
+              border-radius: 1.5px;
+              transform: rotate(45deg) translate(0, -50%);
+              position: absolute;
+              top: 50%;
+              right: 25px;
+              transition: .3s ease-in-out;
+            }
+          }
+        }
+        .btnPrev,
+        .btnNext{
+          line-height: 0;
+          transition: .3s ease-in-out;
+          a{
+            img{
+              width: 25px;
+            }
+          }
+        }
+        .btnPrev{
+          transform: scaleX(-1);
+          margin: 0 15px 0 0;
+        }
+        .btnNext{
+          margin: 0 0 0 15px;
+        }
+      }
+    }
+  }
+}
