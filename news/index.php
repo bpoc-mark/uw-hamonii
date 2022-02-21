@@ -29,51 +29,138 @@
     </header>
 
     <main>
-      <div class="container">
-        <ul class="news_ul">
-          <li class="news_li">
-            <a href="">
-              <span class="date">2020.12.08</span>
-              <span class="img_wrap"><img src="https://placehold.jp/80x65.png" alt="ダミー画像"></span>
-              <span class="title">ダミーテキストダミーテキストダミーテキストダミーテキスト</span>
-            </a>
-          </li>
-          <li class="news_li">
-            <a href="">
-              <span class="date">2020.12.08</span>
-              <span class="img_wrap"><img src="https://placehold.jp/80x65.png" alt="ダミー画像"></span>
-              <span class="title">ダミーテキストダミーテキストダミーテキストダミーテキスト</span>
-            </a>
-          </li>
-          <li class="news_li">
-            <a href="">
-              <span class="date">2020.12.08</span>
-              <span class="img_wrap"><img src="https://placehold.jp/80x65.png" alt="ダミー画像"></span>
-              <span class="title">ダミーテキストダミーテキストダミーテキストダミーテキスト</span>
-            </a>
-          </li>
-        </ul>
+      <section class="p-header">
+        <div class="p-header--wrap">
+          <p class="p-header--en">news</p>
+          <h1 class="p-header--jp">採育ニュース</h1>
+        </div>
+      </section>
+      <section class="news">
+        <div class="container">
+          <ul class="news_ul">
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-1.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="status sp">[ NEW ]</span>
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-2.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-1.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-3.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-1.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-2.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-1.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-3.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-1.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-2.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-1.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+            <li class="news_li">
+              <a href="">
+                <span class="img_wrap"><img src="/images/news/img-3.jpg" alt="ダミー画像"></span>
+                <div class="post-cont">
+                  <span class="title">就活オンライン商談会<br class="pc">実施しました</span>
+                  <span class="date">2021.02.26 <span class="job-info-text">[ 求人情報 ]</span></span>
+                </div>
+              </a>
+            </li>
+          </ul>
 
-        <!-- Wordpress -->
-        <div class="page_navigation">
-          <div class="wp-pagenavi">
-            <a class="previouspostslink" href="#" rel="prev">PREV</a>
-            <a class="page smaller" href="#">1</a>
-            <span class="current">2</span>
-            <a class="page larger" href="#">3</a>
-            <a class="nextpostslink" href="#" rel="next">NEXT</a>
+          <!-- Wordpress -->
+          <div class="page_navigation">
+            <div class="wp-pagenavi">
+              <a class="previouspostslink" href="#" rel="prev"><img src="/images/common/pager_arrow.svg" alt=""></a>
+              <a class="page smaller" href="#">1</a>
+              <span class="current">2</span>
+              <a class="page larger" href="#">3</a>
+              <a class="nextpostslink" href="#" rel="next"><img src="/images/common/pager_arrow.svg" alt=""></a>
+            </div>
           </div>
         </div>
-
-        <!-- Movable Type -->
-        <div class="page_navigation">
-          <ul>
-            <li><span class="current_page">1</span></li>
-            <li><a href="#" class="link_page">2</a></li>
-            <li><a href="#" class="link_page">3</a></li>
-          </ul>
-        </div>
-      </div>
+      </section>
     </main>
 
     <footer>
