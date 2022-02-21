@@ -72,13 +72,220 @@ header {
   z-index: 999;
   background: #fff;
   width: 100%;
-  height: 100px;
+  height: 80px;
+  .header_inner{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 45px 0 70px;
+    @include is-max(1180px){
+      padding: 0 25px 0 25px;
+    }
+    .logo-wrap{
+      width: 206px;
+    }
+    .nav{
+      $root: &;
+      &--list{
+        display: flex;
+        align-items: center;
+        justify-self: flex-end;
+      }
+      &--item{
+        &:nth-child(2),&:nth-child(3),&:nth-child(4){
+          margin: 0 22px 0 0;
+          @include is-max(1180px){
+            margin: 0 15px 0 0;
+          }
+          .nav--link{
+            padding: 0 25px 0 0;
+            @include is-max(1180px){
+              padding: 0 15px 0 0;
+            }
+            &::after{
+              content: "";
+              display: block;
+              width: 6px;
+              height: 6px;
+              background-color: #407dd0;
+              border-radius: 50px;
+              position: absolute;
+              top: 50%;
+              right: 0;
+              transform: translate(0, -50%);
+            }
+          }
+        }
+      }
+      &--link{
+        position: relative;
+        font-size: 18px;
+        letter-spacing: .05em;
+        color: #000;
+        @include is-max(1180px){
+          font-size: 14px;
+        }
+        &__contact{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 200px;
+          height: 50px;
+          border-radius: 50px;
+          background-color: #407dd0;
+          color: #fff;
+          transition: .3s ease-in-out;
+          box-sizing: border-box;
+          margin: 0 0 0 20px;
+          @include is-max(950px){
+            width: 170px;
+          }
+          &:hover{
+            border: 1px solid #0aa63e;
+            background-color: #fff;
+            color: #0aa63e;
+            .nav--link--email-icon{
+              .cls-1{
+                fill: #0aa63e;
+              }
+            }
+          }
+        }
+        &--email-icon{
+          width: 23px;
+          margin: 4px 10px 0 0;
+          transition: .3s ease-in-out;
+        }
+      }
+    }
+  }
 }
 
 /* footer
 ==================================*/
 footer {
-  background: #000;
+  background: #194d93;
+  padding: 60px 0 220px;
+  .footer_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .nav{
+      width: 35%;
+      &--list{
+        border-left: 1px solid #113d79;
+        padding: 0 0 0 20px;
+      }
+      &--item{
+        &:not(:last-child){
+          margin: 0 0 18px;
+        }
+        .nav-dec{
+          margin: 8px 0 0;
+          &--item{
+            &:not(:last-child){
+              margin: 0 0 3px;
+            }
+          }
+        }
+      }
+      &--link{
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: .2em;
+        &--regular{
+          font-weight: 400;
+        }
+      }
+    }
+    .job-information{
+      width: 65%;
+      .ttl{
+        background-color: #113d79;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: .2em;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0 0 35px;
+      }
+      .job{
+        &--item{
+          &:not(:last-child){
+            margin: 0 0 14px;
+            .row{
+              border-bottom: 1px solid #113d79;
+            }
+          }
+          .row{
+            padding: 0 0 20px;
+            .col{
+              &:first-child{
+                width: 180px;
+              }
+              &:last-child{
+                width: calc(100% - 180px);
+              }
+              h5{
+                font-weight: 500;
+                letter-spacing: .2em;
+                color: #fff;
+                padding: 20px 0 0;
+                &.pd-top{
+                  padding: 10px 0 0;
+                }
+                .building-icon{
+                  width: 18px;
+                  margin: 0 13px 0 0;
+                  .cls-1{
+                    fill: #fff;
+                  }
+                }
+                .tie-icon{
+                  width: 14px;
+                  position: relative;
+                  top: 4px;
+                  margin: 0 13px 0 0;
+                  .cls-1{
+                    fill: #fff;
+                  }
+                }
+                .map-icon{
+                  width: 15px;
+                  position: relative;
+                  top: 4px;
+                  margin: 0 13px 0 0;
+                  .cls-1{
+                    fill: #fff;
+                  }
+                }
+              }
+              p{
+                line-height: 24px;
+                letter-spacing: .03em;
+                color: #fff;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+    }
+    .copy{
+      width: 100%;
+      margin: 35px 0 0;
+      small{
+        @include Montserrat(700);
+        font-size: 12px;
+        letter-spacing: .08em;
+        color: #88a7d1;
+      }
+    }
+  }
 }
 
 #pageTop {
