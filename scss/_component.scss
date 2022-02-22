@@ -156,6 +156,38 @@ img {
 	ページナビ
 ==================================*/
 .page_navigation {
+  &.recruit-page{
+    @include pc{
+      .wp-pagenavi {
+        margin: 10px 0 0;
+        > .page,
+        .current {
+          width: 54px;
+          height: 54px;
+          &:not(.current) {
+            background-color: #fff;
+            border: 1px solid #229a48;
+            @include pc {
+              &:hover {
+                color: #fff;
+                background-color: #229a48;
+              }
+            }
+          }
+  
+          &.current {
+            background-color: #229a48;
+            color: #fff;
+          }
+        }
+      }
+    }
+    @include sp {
+      .wp-pagenavi{
+        margin: 0 0 0;
+      }
+    }
+  }
   // wordpress 用
   .wp-pagenavi {
     display: flex;
