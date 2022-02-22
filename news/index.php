@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?></title>
+  <title>ニュース | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -31,8 +31,8 @@
     <main>
       <section class="p-header">
         <div class="p-header--wrap">
-          <p class="p-header--en">news</p>
-          <h1 class="p-header--jp">採育ニュース</h1>
+          <p class="p-header--sm">news</p>
+          <h1 class="p-header--lg">採育ニュース</h1>
         </div>
       </section>
       <section class="news">
