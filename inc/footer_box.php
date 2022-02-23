@@ -3,7 +3,7 @@
 	<nav class="nav pc">
 		<ul class="nav--list">
 			<li class="nav--item"><a href="/" class="nav--link">HOME</a></li>
-			<li class="nav--item"><a href="/" class="nav--link">求人情報</a></li>
+			<li class="nav--item"><a href="/recruit/" class="nav--link">求人情報</a></li>
 			<li class="nav--item">
 				<a href="/" class="nav--link">就活応援コラム</a>
 				<ul class="nav-dec">
@@ -15,10 +15,10 @@
 					</li>
 				</ul>
 			</li>
-			<li class="nav--item"><a href="/" class="nav--link">採育ニュース</a></li>
+			<li class="nav--item"><a href="/news/" class="nav--link">採育ニュース</a></li>
 			<li class="nav--item"><a href="/" class="nav--link">企業の皆様へ</a></li>
 			<li class="nav--item"><a href="/" class="nav--link">かえるシステム</a></li>
-			<li class="nav--item"><a href="/" class="nav--link">お問い合わせ</a></li>
+			<li class="nav--item"><a href="/contact/" class="nav--link">お問い合わせ</a></li>
 		</ul>
 	</nav>
 

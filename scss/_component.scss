@@ -157,31 +157,6 @@ img {
 ==================================*/
 .page_navigation {
   &.recruit-page{
-    @include pc{
-      .wp-pagenavi {
-        margin: 10px 0 0;
-        > .page,
-        .current {
-          width: 54px;
-          height: 54px;
-          &:not(.current) {
-            background-color: #fff;
-            border: 1px solid #229a48;
-            @include pc {
-              &:hover {
-                color: #fff;
-                background-color: #229a48;
-              }
-            }
-          }
-  
-          &.current {
-            background-color: #229a48;
-            color: #fff;
-          }
-        }
-      }
-    }
     @include sp {
       .wp-pagenavi{
         margin: 0 0 0;
@@ -201,8 +176,8 @@ img {
     .current {
       font-size: 20px;
       font-weight: 500;
-      width: 40px;
-      height: 40px;
+      width: 54px;
+      height: 54px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -212,21 +187,30 @@ img {
       margin: 0 6px;
       @include sp{
         font-size: 16px;
+        width: 40px;
+        height: 40px;
       }
       &:not(.current) {
         background-color: #fff;
-        border: 1px solid #407dd0;
+        border: 1px solid #229a48;
+        @include sp{
+          border: 1px solid #407dd0;
+        }
         @include pc {
           &:hover {
             color: #fff;
-            background-color: #407dd0;
+            background-color: #229a48;
           }
         }
       }
 
       &.current {
-        background-color: #407dd0;
+        background-color: #229a48;
         color: #fff;
+        @include sp{
+          background-color: #407dd0;
+          background-color: 1px solid #407dd0;
+        }
       }
     }
 

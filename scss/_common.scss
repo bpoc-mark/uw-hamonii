@@ -73,6 +73,36 @@ header {
   background: #fff;
   width: 100%;
   height: 80px;
+  &.head-top{
+    .header_inner{
+      .nav{
+        &--item{
+          &:nth-child(2),&:nth-child(3),&:nth-child(4){
+            .nav--link{
+              &::after{
+                background-color: #407dd0;
+              }
+            }
+          }
+        }
+        &--link{
+          &__contact{
+            background-color: #407dd0;
+            &:hover{
+              border: 1px solid #407dd0;
+              background-color: #fff;
+              color: #407dd0;
+              .nav--link--email-icon{
+                .cls-1{
+                  fill: #407dd0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   .header_inner{
     height: inherit;
     display: flex;
@@ -108,7 +138,7 @@ header {
               display: block;
               width: 6px;
               height: 6px;
-              background-color: #407dd0;
+              background-color: #0aa63e;
               border-radius: 50px;
               position: absolute;
               top: 50%;
@@ -123,6 +153,12 @@ header {
         font-size: 18px;
         letter-spacing: .05em;
         color: #000;
+        &--active{
+          color: #0aa63e;
+        }
+        &--active2{
+          color: #407dd0;
+        }
         @include is-max(1180px){
           font-size: 14px;
         }
@@ -133,7 +169,7 @@ header {
           width: 200px;
           height: 50px;
           border-radius: 50px;
-          background-color: #407dd0;
+          background-color: #0aa63e;
           color: #fff;
           transition: .3s ease-in-out;
           box-sizing: border-box;
@@ -158,6 +194,7 @@ header {
           transition: .3s ease-in-out;
           .cls-1{
             fill: #fff;
+            transition: .3s ease-in-out;
           }
         }
       }
@@ -168,8 +205,39 @@ header {
 /* footer
 ==================================*/
 footer {
-  background: #194d93;
+  background: #229a48;
   padding: 60px 0 220px;
+  &.footer-top{
+    background: #194d93;
+    .footer_inner{
+      .nav{
+        &--list{
+          border-left: 1px solid #113d79;
+          padding: 0 0 0 20px;
+        }
+      }
+      .job-information{
+        .ttl{
+          background-color: #113d79;
+        }
+        .job{
+          &--item{
+            &:not(:last-child){
+              margin: 0 0 14px;
+              .row{
+                border-bottom: 1px solid #113d79;
+              }
+            }
+          }
+        }
+      }
+      .copy{
+        small{
+          color: #88a7d1;
+        }
+      }
+    }
+  }
   .footer_inner{
     display: flex;
     flex-wrap: wrap;
@@ -177,7 +245,7 @@ footer {
     .nav{
       width: 35%;
       &--list{
-        border-left: 1px solid #113d79;
+        border-left: 1px solid #99d9ad;
         padding: 0 0 0 20px;
       }
       &--item{
@@ -206,7 +274,7 @@ footer {
     .job-information{
       width: 65%;
       .ttl{
-        background-color: #113d79;
+        background-color: #1e783a;
         border-radius: 5px;
         color: #fff;
         font-weight: 700;
@@ -221,7 +289,7 @@ footer {
           &:not(:last-child){
             margin: 0 0 14px;
             .row{
-              border-bottom: 1px solid #113d79;
+              border-bottom: 1px solid #99d9ad;
             }
           }
           .row{
@@ -285,7 +353,7 @@ footer {
         @include Montserrat(700);
         font-size: 12px;
         letter-spacing: .08em;
-        color: #88a7d1;
+        color: #9fe1b4;
       }
     }
   }

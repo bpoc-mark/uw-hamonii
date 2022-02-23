@@ -24,7 +24,7 @@
 <body id="Top">
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
 	<div id="AllBox">
-		<header>
+		<header class="head-top">
 			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
 		</header>
 
@@ -392,7 +392,7 @@
 			</section>
 		</main>
 
-		<footer>
+		<footer class="footer-top">
 			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
 		</footer>
 	</div><!-- //AllBox -->

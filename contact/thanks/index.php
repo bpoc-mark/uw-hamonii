@@ -28,6 +28,12 @@
 		</header>
 
 		<main id="Contact" class="sfm3">
+     		 <section class="p-header">
+				<div class="p-header--wrap">
+					<p class="p-header--sm">entry</p>
+					<h1 class="p-header--lg">仕事体験申込フォーム</h1>
+				</div>
+			</section>
 			<section class="form-sec">
 				<div class="send_comp container">
 					<p>

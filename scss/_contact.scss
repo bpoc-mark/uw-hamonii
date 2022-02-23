@@ -3,6 +3,7 @@
 ==================================*/
 
 main#Contact {
+  margin: 80px 0 0;
   .container {
     margin: auto;
 
@@ -27,6 +28,8 @@ main#Contact {
 
   .need {
     color: #cc0303;
+    position: relative;
+    left: 7px;
   }
 
   table {
@@ -37,22 +40,34 @@ main#Contact {
     }
 
     tr {
-      display: block;
-      margin-bottom: 30px;
-
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: 2px solid #ebebeb;
+      padding: 20px 0;
+      &:first-child{
+        border-top: 2px solid #ebebeb;
+      }
+      &.row-radio{
+        th{
+          padding: 25px 0 25px;
+        }
+        td{
+          padding: 25px 0 25px;
+        }
+      }
       th {
-        font-size: 16px;
-        line-height: 1;
-        letter-spacing: 0.03em;
+        width: 170px;
+        font-size: 18px;
+        letter-spacing: 0.08em;
         font-weight: 500;
         display: block;
         text-align: left;
-        margin-bottom: 13px;
+        padding: 27px 0 0;
       }
 
       td {
         display: block;
-
+        width: calc(100% - 170px);
         .text02 {
           margin-top: 8px;
         }
@@ -61,7 +76,7 @@ main#Contact {
   }
 
   .check-list {
-    padding-top: 5px;
+    padding-top: 0;
     padding-left: 0;
 
     li {
@@ -72,10 +87,44 @@ main#Contact {
   .form_wrap {
     > p {
       margin-top: 0 !important;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.03em;
-      font-weight: 500;
+      line-height: 28.8px;
+      letter-spacing: 0.08em;
+      text-align: center;
+      margin: 0 0 36px;
+      span{
+        color: #ff0000;
+      }
+    }
+    > h2{
+      font-size: 28px;
+      letter-spacing: .08em;
+      line-height: 28.8px;
+      text-align: center;
+      margin: 0 0 45px;
+      span{
+        display: block;
+        font-size: 16px;
+        color: #9b9b9b;
+        margin: 0 0 6px;
+      }
+    }
+  }
+  .form-sec{
+    padding: 90px 0 120px;
+  }
+
+  &.sfm2{
+    table{
+      tr{
+        &.row-radio{
+          td{
+            padding: 0;
+          }
+        }
+        th{
+          padding: 0;
+        }
+      }
     }
   }
 }
