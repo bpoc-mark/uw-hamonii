@@ -16,6 +16,11 @@ $(function () {
     $(this).find('.line').toggleClass('show');
   });
 
+  $('header .overlay').click(function () {
+    $('header').toggleClass('open');
+    $('#nav_menu').find('.line').toggleClass('show');
+  });
+
   var w = $(window).width();
   if (w < 900) {
 
