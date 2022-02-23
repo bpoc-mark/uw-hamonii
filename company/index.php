@@ -196,13 +196,13 @@
               <div class="col">
                 <div class="img-row">
                   <div class="img-row--col">
-                    <img src="/images/company/img_2.jpg" alt="">
+                    <img src="/images/company/img_2.jpg" alt="求人の特徴">
                   </div>
                   <div class="img-row--col pc">
-                    <img src="/images/company/img_3.jpg" alt="">
+                    <img src="/images/company/img_3.jpg" alt="求人の特徴">
                   </div>
                   <div class="img-row--col pc">
-                    <img src="/images/company/img_4.jpg" alt="">
+                    <img src="/images/company/img_4.jpg" alt="求人の特徴">
                   </div>
                 </div>
               </div>

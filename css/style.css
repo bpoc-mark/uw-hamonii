@@ -1853,7 +1853,7 @@ img[src$=".png"], img[src$=".jpg"] {
 #Company main .sect-1 .container .content .job-row .col:first-child {
   padding: 40px 0 15px;
   background-color: #fff7df;
-  width: 38%;
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1912,7 +1912,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Company main .sect-1 .container .content .job-row .col:last-child {
-  width: 62%;
+  width: 60%;
   padding: 0 0 0 35px;
 }
 
