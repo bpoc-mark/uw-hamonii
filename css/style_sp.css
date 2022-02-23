@@ -1133,7 +1133,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
   width: 15px;
   height: 17px;
-  background-image: url(/images/top/sect-2/building-icon.svg);
+  background-image: url(/saiiku/images/top/sect-2/building-icon.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1147,7 +1147,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
   width: 12.5px;
   height: 18px;
-  background-image: url(/images/top/sect-2/tie-icon.svg);
+  background-image: url(/saiiku/images/top/sect-2/tie-icon.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1161,7 +1161,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
   width: 12.5px;
   height: 16.5px;
-  background-image: url(/images/top/sect-2/map-icon.svg);
+  background-image: url(/saiiku/images/top/sect-2/map-icon.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -2476,7 +2476,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
   width: 15px;
   height: 17px;
-  background-image: url(/images/top/sect-2/building-icon.svg);
+  background-image: url(/saiiku/images/top/sect-2/building-icon.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -2490,7 +2490,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
   width: 12.5px;
   height: 18px;
-  background-image: url(/images/top/sect-2/tie-icon.svg);
+  background-image: url(/saiiku/images/top/sect-2/tie-icon.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -2504,7 +2504,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
   width: 12.5px;
   height: 16.5px;
-  background-image: url(/images/top/sect-2/map-icon.svg);
+  background-image: url(/saiiku/images/top/sect-2/map-icon.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -3116,7 +3116,7 @@ main#Contact input[type="checkbox"] + label::before {
 main#Contact input[type="checkbox"] + label::after {
   content: "";
   opacity: 0;
-  background-image: url(/images/common/check-icon.svg);
+  background-image: url(/saiiku/images/common/check-icon.svg);
   background-size: cover;
   background-repeat: no-repeat;
   display: block;
@@ -3131,7 +3131,7 @@ main#Contact input[type="checkbox"] + label::after {
 
 @media (max-width: 899px) {
   main#Contact input[type="checkbox"] + label::after {
-    background-image: url(/images/common/check-icon-bl.svg);
+    background-image: url(/saiiku/images/common/check-icon-bl.svg);
   }
 }
 

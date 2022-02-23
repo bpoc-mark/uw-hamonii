@@ -1125,7 +1125,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
   width: 18px;
   height: 21px;
-  background-image: url(/images/top/sect-2/building-icon.svg);
+  background-image: url(/saiiku/images/top/sect-2/building-icon.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1139,7 +1139,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
   width: 14px;
   height: 23px;
-  background-image: url(/images/top/sect-2/tie-icon.svg);
+  background-image: url(/saiiku/images/top/sect-2/tie-icon.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1153,7 +1153,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
   width: 15px;
   height: 21px;
-  background-image: url(/images/top/sect-2/map-icon.svg);
+  background-image: url(/saiiku/images/top/sect-2/map-icon.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1334,7 +1334,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
   width: 30px;
   height: 9.8px;
-  background-image: url(/images/top/sect-3/arrow-icon.svg);
+  background-image: url(/saiiku/images/top/sect-3/arrow-icon.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3143,7 +3143,7 @@ main#Contact input[type="checkbox"] + label::before {
 main#Contact input[type="checkbox"] + label::after {
   content: "";
   opacity: 0;
-  background-image: url(/images/common/check-icon.svg);
+  background-image: url(/saiiku/images/common/check-icon.svg);
   background-size: cover;
   background-repeat: no-repeat;
   display: block;
@@ -3158,7 +3158,7 @@ main#Contact input[type="checkbox"] + label::after {
 
 @media (max-width: 899px) {
   main#Contact input[type="checkbox"] + label::after {
-    background-image: url(/images/common/check-icon-bl.svg);
+    background-image: url(/saiiku/images/common/check-icon-bl.svg);
   }
 }
 

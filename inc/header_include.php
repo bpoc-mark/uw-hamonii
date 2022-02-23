@@ -14,10 +14,10 @@ if ((strpos($ua, 'iPhone') !== false) || (strpos($ua, 'iPod') !== false) || (str
 <meta content="#fff" name="theme-color"><!-- Androidでアドレスバーの色指定 -->
 <meta name="format-detection" content="telephone=no"><!-- Edgeでのリンク定義回避 -->
 
-<link href="/css/layout.css" media="all" rel="stylesheet">
-<link href="/css/style.css" media="print" rel="stylesheet">
-<link href="/css/style.css" media="only screen and (min-width: 900px)" rel="stylesheet">
-<link href="/css/style_sp.css" media="only screen and (max-width: 899px)" rel="stylesheet">
+<link href="/saiiku/css/layout.css" media="all" rel="stylesheet">
+<link href="/saiiku/css/style.css" media="print" rel="stylesheet">
+<link href="/saiiku/css/style.css" media="only screen and (min-width: 900px)" rel="stylesheet">
+<link href="/saiiku/css/style_sp.css" media="only screen and (max-width: 899px)" rel="stylesheet">
 <!-- HTML：CDNリンクを貼り付け -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp-noto.min.css">
 <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>

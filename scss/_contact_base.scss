@@ -159,7 +159,7 @@ main#Contact {
       &::after {
         content: "";
         opacity: 0;
-        background-image: url(/images/common/check-icon.svg);
+        background-image: url(/saiiku/images/common/check-icon.svg);
         background-size: cover;
         background-repeat: no-repeat;
         display: block;
@@ -171,7 +171,7 @@ main#Contact {
         position: absolute;
         top: 50%;
         @include sp{
-          background-image: url(/images/common/check-icon-bl.svg);
+          background-image: url(/saiiku/images/common/check-icon-bl.svg);
         }
       }
     }

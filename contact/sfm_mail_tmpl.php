@@ -18,21 +18,33 @@ $mailMessage = <<< EOD
 ■お名前
 {$sfm_mail->name}
 
-■メールアドレス
-{$sfm_mail->email}
+■ふりがな
+{$sfm_mail->furigana}
 
-■ご住所
+■性別
+{$sfm_mail->gender}
+
+■生年月日
+{$sfm_mail->bday}
+
+■住所
 〒{$sfm_mail->zip}
 {$sfm_mail->address}
 
-■チェックボックス　
-{$sfm_mail->check}
+■電話番号
+{$sfm_mail->tel}
 
-■セレクトボックス
-{$sfm_mail->select}
+■メールアドレス
+{$sfm_mail->email}
 
-■お問い合わせ内容
-{$sfm_mail->message}
+■職業
+{$sfm_mail->profession_s}
+
+■学校・会社名
+{$sfm_mail->companyname}
+
+■希望職種
+{$sfm_mail->occupation}
 
 
 ────────────────────────────────────

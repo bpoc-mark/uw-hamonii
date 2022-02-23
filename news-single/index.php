@@ -1,9 +1,9 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/config.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/tag_manager.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/tag_manager.php"); ?>
   <meta charset="UTF-8" />
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="<?php echo CANONICAL ?>">
@@ -16,16 +16,16 @@
 
   <title>ニュース | <?php echo SITE_NAME ?></title>
 
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/header_include.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/ga.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/header_tag.php"); ?>
 </head>
 
 <body id="News-Single">
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/content_tag.php"); ?>
   <div id="AllBox">
     <header>
-      <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/header_box.php"); ?>
     </header>
 
     <main>
@@ -52,18 +52,18 @@
               そうしてその穴の中から時々ぷうぷうと煙を
             </p>
             <figure>
-              <img src="/images/news-single/img-1.jpg" alt="就活オンライン商談会実施しました">
+              <img src="/saiiku/images/news-single/img-1.jpg" alt="就活オンライン商談会実施しました">
             </figure>
           </div>
           <ul class="nav">
             <li class="btnPrev">
-              <a href=""><img src="/images/common/pager_arrow.svg" alt=""></a>
+              <a href=""><img src="/saiiku/images/common/pager_arrow.svg" alt=""></a>
             </li>
             <li class="toList">
               <a href="">一覧に戻る</a>
             </li>
             <li class="btnNext">
-              <a href=""><img src="/images/common/pager_arrow.svg" alt=""></a>
+              <a href=""><img src="/saiiku/images/common/pager_arrow.svg" alt=""></a>
             </li>
           </ul>
         </div>
@@ -71,10 +71,10 @@
     </main>
 
     <footer>
-      <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/footer_box.php"); ?>
     </footer>
   </div><!-- //AllBox -->
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/footer_tag.php"); ?>
 </body>
 
 </html>

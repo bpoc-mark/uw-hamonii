@@ -1,9 +1,9 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/config.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/tag_manager.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/tag_manager.php"); ?>
   <meta charset="UTF-8" />
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="<?php echo CANONICAL ?>">
@@ -16,16 +16,16 @@
 
   <title>企業紹介 | <?php echo SITE_NAME ?></title>
 
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/header_include.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/ga.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/header_tag.php"); ?>
 </head>
 
 <body id="Company">
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/content_tag.php"); ?>
   <div id="AllBox">
     <header class="head-top">
-      <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/header_box.php"); ?>
     </header>
 
     <main>
@@ -40,7 +40,7 @@
           <div class="content">
             <div class="txt-row">
               <div class="col">
-                <img src="/images/company/img_1.jpg" alt="SBTEKKO">
+                <img src="/saiiku/images/company/img_1.jpg" alt="SBTEKKO">
               </div>
               <div class="col">
                 <p>エスビー鉄鋼では「最後まで働きたい会社作り」を究極の目標に掲げ、社員の喜びと業績安定に取り組み、地域貢献を目指しています。</p>
@@ -57,11 +57,11 @@
                     </div>
                     <div class="col">
                       <div class="star-wrap">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
                       </div>
                     </div>
                   </div>
@@ -71,11 +71,11 @@
                     </div>
                     <div class="col">
                       <div class="star-wrap">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
                       </div>
                     </div>
                   </div>
@@ -85,11 +85,11 @@
                     </div>
                     <div class="col">
                       <div class="star-wrap">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
                       </div>
                     </div>
                   </div>
@@ -99,11 +99,11 @@
                     </div>
                     <div class="col">
                       <div class="star-wrap">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
                       </div>
                     </div>
                   </div>
@@ -113,11 +113,11 @@
                     </div>
                     <div class="col">
                       <div class="star-wrap">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
                       </div>
                     </div>
                   </div>
@@ -127,11 +127,11 @@
                     </div>
                     <div class="col">
                       <div class="star-wrap">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
                       </div>
                     </div>
                   </div>
@@ -141,11 +141,11 @@
                     </div>
                     <div class="col">
                       <div class="star-wrap">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
                       </div>
                     </div>
                   </div>
@@ -155,11 +155,11 @@
                     </div>
                     <div class="col">
                       <div class="star-wrap">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
                       </div>
                     </div>
                   </div>
@@ -169,11 +169,11 @@
                     </div>
                     <div class="col">
                       <div class="star-wrap">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
                       </div>
                     </div>
                   </div>
@@ -183,11 +183,11 @@
                     </div>
                     <div class="col">
                       <div class="star-wrap">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
-                        <img src="/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
+                        <img src="/saiiku/images/common/star-icon-wh.svg" alt="">
                       </div>
                     </div>
                   </div>
@@ -196,13 +196,13 @@
               <div class="col">
                 <div class="img-row">
                   <div class="img-row--col">
-                    <img src="/images/company/img_2.jpg" alt="求人の特徴">
+                    <img src="/saiiku/images/company/img_2.jpg" alt="求人の特徴">
                   </div>
                   <div class="img-row--col pc">
-                    <img src="/images/company/img_3.jpg" alt="求人の特徴">
+                    <img src="/saiiku/images/company/img_3.jpg" alt="求人の特徴">
                   </div>
                   <div class="img-row--col pc">
-                    <img src="/images/company/img_4.jpg" alt="求人の特徴">
+                    <img src="/saiiku/images/company/img_4.jpg" alt="求人の特徴">
                   </div>
                 </div>
               </div>
@@ -372,10 +372,10 @@
     </main>
 
     <footer class="footer-top">
-      <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/footer_box.php"); ?>
     </footer>
   </div><!-- //AllBox -->
-  <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/footer_tag.php"); ?>
 </body>
 
 </html>

@@ -1,9 +1,9 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/config.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/tag_manager.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/tag_manager.php"); ?>
 	<meta charset="UTF-8" />
 	<meta name="robots" content="index,follow">
 	<link rel="canonical" href="<?php echo CANONICAL ?>">
@@ -15,16 +15,16 @@
 
 	<title>お問い合わせ | <?php echo SITE_NAME ?></title>
 
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/header_include.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/ga.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/header_tag.php"); ?>
 </head>
 
 <body id="Competitive">
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/content_tag.php"); ?>
 	<div id="AllBox">
 		<header>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/header_box.php"); ?>
 		</header>
 
 		<main id="Contact" class="sfm1">
@@ -184,10 +184,10 @@
 		</main>
 
 		<footer>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/footer_box.php"); ?>
 		</footer>
 	</div><!-- //AllBox -->
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/footer_tag.php"); ?>
 	<script src="https://ajaxzip3.github.io/ajaxzip3.js"></script>
 	<script src="/js/jquery.validate.min.js"></script>
 	<script>

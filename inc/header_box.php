@@ -6,9 +6,9 @@ $str = explode('/', $url); ?>
 	<div class="logo-wrap">
 		<?php
 		if ($str[1] == "") {
-			echo '<h1 class="logo"><a href="/"><img src="/images/common/header-logo.svg" alt="'. SITE_NAME .'"></a></h1>';
+			echo '<h1 class="logo"><a href="/"><img src="/saiiku/images/common/header-logo.svg" alt="'. SITE_NAME .'"></a></h1>';
 		} else {
-			echo '<p class="logo"><a href="/"><img src="/images/common/header-logo.svg" alt="'. SITE_NAME .'"></a></p>';
+			echo '<p class="logo"><a href="/"><img src="/saiiku/images/common/header-logo.svg" alt="'. SITE_NAME .'"></a></p>';
 		}
 		?>
 	</div>

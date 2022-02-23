@@ -1,9 +1,9 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/config.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/tag_manager.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/tag_manager.php"); ?>
 	<meta charset="UTF-8" />
 	<meta name="robots" content="index,follow">
 	<link rel="canonical" href="<?php echo CANONICAL ?>">
@@ -16,16 +16,16 @@
 
 	<title><?php echo SITE_NAME ?></title>
 
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/header_include.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/ga.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/header_tag.php"); ?>
 </head>
 
 <body id="Top">
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/content_tag.php"); ?>
 	<div id="AllBox">
 		<header class="head-top">
-			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/header_box.php"); ?>
 		</header>
 
 		<main>
@@ -38,26 +38,26 @@
 							<!-- Slides -->
 							<div class="swiper-slide slide-img-1">
 								<picture >
-									<source srcset="/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
-									<img src="/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
+									<source srcset="/saiiku/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
+									<img src="/saiiku/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
 								</picture>
 							</div>
 							<div class="swiper-slide slide-img-2">
 								<picture >
-									<source srcset="/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
-									<img src="/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
+									<source srcset="/saiiku/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
+									<img src="/saiiku/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
 								</picture>
 							</div>
 							<div class="swiper-slide slide-img-3">
 								<picture >
-									<source srcset="/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
-									<img src="/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
+									<source srcset="/saiiku/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
+									<img src="/saiiku/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
 								</picture>
 							</div>
 							<div class="swiper-slide slide-img-4">
 								<picture >
-									<source srcset="/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
-									<img src="/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
+									<source srcset="/saiiku/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
+									<img src="/saiiku/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
 								</picture>
 							</div>
 						</div>
@@ -146,33 +146,33 @@
 							<div class="col">
 								<a href="">
 									<figure>
-										<img src="/images/top/sect-3/img_1.svg" alt="">
+										<img src="/saiiku/images/top/sect-3/img_1.svg" alt="">
 									</figure>
 									<h3>求人情報</h3>
 									<div class="arrow-wrap">
-										<img class="arrow-icon" src="/images/top/sect-3/arrow-icon.svg" alt="">
+										<img class="arrow-icon" src="/saiiku/images/top/sect-3/arrow-icon.svg" alt="">
 									</div>
 								</a>
 							</div>
 							<div class="col">
 								<a href="">
 									<figure>
-										<img src="/images/top/sect-3/img_2.svg" alt="">
+										<img src="/saiiku/images/top/sect-3/img_2.svg" alt="">
 									</figure>
 									<h3>就活応援コラム</h3>
 									<div class="arrow-wrap">
-										<img class="arrow-icon" src="/images/top/sect-3/arrow-icon.svg" alt="">
+										<img class="arrow-icon" src="/saiiku/images/top/sect-3/arrow-icon.svg" alt="">
 									</div>
 								</a>
 							</div>
 							<div class="col">
 								<a href="">
 									<figure>
-										<img src="/images/top/sect-3/img_3.svg" alt="">
+										<img src="/saiiku/images/top/sect-3/img_3.svg" alt="">
 									</figure>
 									<h3>採育ニュース</h3>
 									<div class="arrow-wrap">
-										<img class="arrow-icon" src="/images/top/sect-3/arrow-icon.svg" alt="">
+										<img class="arrow-icon" src="/saiiku/images/top/sect-3/arrow-icon.svg" alt="">
 									</div>
 								</a>
 							</div>
@@ -189,7 +189,7 @@
 								<div class="col">
 									<a href="">
 										<figure>
-											<img src="/images/top/sect-4/img_1.jpg" alt="">
+											<img src="/saiiku/images/top/sect-4/img_1.jpg" alt="">
 										</figure>
 										<div class="post-data">
 											<span class="status">[ NEW ]</span>
@@ -201,7 +201,7 @@
 								<div class="col">
 									<a href="">
 										<figure>
-											<img src="/images/top/sect-4/img_2.jpg" alt="">
+											<img src="/saiiku/images/top/sect-4/img_2.jpg" alt="">
 										</figure>
 										<div class="post-data">
 											<h4 class="post-ttl">2021年度就活アンケート<br>データ公開</h4>
@@ -212,7 +212,7 @@
 								<div class="col">
 									<a href="">
 										<figure>
-											<img src="/images/top/sect-4/img_3.jpg" alt="">
+											<img src="/saiiku/images/top/sect-4/img_3.jpg" alt="">
 										</figure>
 										<div class="post-data">
 											<h4 class="post-ttl">就活生が企業に取材！</h4>
@@ -236,18 +236,18 @@
 									<a href="" class="job-link">
 										<div class="job-link--img-wrap">
 											<figure class="job-link--img">
-												<img src="/images/top/sect-5/img-1.jpg" alt="">
+												<img src="/saiiku/images/top/sect-5/img-1.jpg" alt="">
 											</figure>
 											<div class="job-link--status job-link--status--bg1"><span>新卒<br>中途</span></div>
 										</div>
 										<div class="job-link--ratings">
 											<span class="job-link--ratings__txt">自己成長度</span>
 											<div class="job-link--ratings__wrap">
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
 											</div>
 										</div>
 										<h5 class="job-link--sub-head">[ 工場、製造スタッフ ]</h5>
@@ -259,18 +259,18 @@
 									<a href="" class="job-link">
 										<div class="job-link--img-wrap">
 											<figure class="job-link--img">
-												<img src="/images/top/sect-5/img-2.jpg" alt="">
+												<img src="/saiiku/images/top/sect-5/img-2.jpg" alt="">
 											</figure>
 											<div class="job-link--status job-link--status--bg1"><span>新卒<br>中途</span></div>
 										</div>
 										<div class="job-link--ratings">
 											<span class="job-link--ratings__txt">雰囲気</span>
 											<div class="job-link--ratings__wrap">
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
 											</div>
 										</div>
 										<h5 class="job-link--sub-head">[ 工場、製造スタッフ / 営業スタッフ ]</h5>
@@ -282,18 +282,18 @@
 									<a href="" class="job-link">
 										<div class="job-link--img-wrap">
 											<figure class="job-link--img">
-												<img src="/images/top/sect-5/img-1.jpg" alt="">
+												<img src="/saiiku/images/top/sect-5/img-1.jpg" alt="">
 											</figure>
 											<div class="job-link--status job-link--status--bg2"><span>新卒</span></div>
 										</div>
 										<div class="job-link--ratings">
 											<span class="job-link--ratings__txt">やりがい</span>
 											<div class="job-link--ratings__wrap">
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
 											</div>
 										</div>
 										<h5 class="job-link--sub-head">[ 工場、製造スタッフ ]</h5>
@@ -305,18 +305,18 @@
 									<a href="" class="job-link">
 										<div class="job-link--img-wrap">
 											<figure class="job-link--img">
-												<img src="/images/top/sect-5/img-4.jpg" alt="">
+												<img src="/saiiku/images/top/sect-5/img-4.jpg" alt="">
 											</figure>
 											<div class="job-link--status job-link--status--bg1"><span>新卒<br>中途</span></div>
 										</div>
 										<div class="job-link--ratings">
 											<span class="job-link--ratings__txt">自己成長度</span>
 											<div class="job-link--ratings__wrap">
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
 											</div>
 										</div>
 										<h5 class="job-link--sub-head">[ 施設管理・設計、営業スタッフ ]</h5>
@@ -328,18 +328,18 @@
 									<a href="" class="job-link">
 										<div class="job-link--img-wrap">
 											<figure class="job-link--img">
-												<img src="/images/top/sect-5/img-5.jpg" alt="">
+												<img src="/saiiku/images/top/sect-5/img-5.jpg" alt="">
 											</figure>
 											<div class="job-link--status job-link--status--bg1"><span>新卒<br>中途</span></div>
 										</div>
 										<div class="job-link--ratings">
 											<span class="job-link--ratings__txt">雰囲気</span>
 											<div class="job-link--ratings__wrap">
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
 											</div>
 										</div>
 										<h5 class="job-link--sub-head">[ 工場、製造スタッフ ]</h5>
@@ -351,18 +351,18 @@
 									<a href="" class="job-link">
 										<div class="job-link--img-wrap">
 											<figure class="job-link--img">
-												<img src="/images/top/sect-5/img-6.jpg" alt="">
+												<img src="/saiiku/images/top/sect-5/img-6.jpg" alt="">
 											</figure>
 											<div class="job-link--status job-link--status--bg1"><span>新卒<br>中途</span></div>
 										</div>
 										<div class="job-link--ratings">
 											<span class="job-link--ratings__txt">人間関係</span>
 											<div class="job-link--ratings__wrap">
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon-wh.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon-wh.svg" alt=""></span>
 											</div>
 										</div>
 										<h5 class="job-link--sub-head">[ 工場、製造スタッフ ]</h5>
@@ -374,18 +374,18 @@
 									<a href="" class="job-link">
 										<div class="job-link--img-wrap">
 											<figure class="job-link--img">
-												<img src="/images/top/sect-5/img-7.jpg" alt="">
+												<img src="/saiiku/images/top/sect-5/img-7.jpg" alt="">
 											</figure>
 											<div class="job-link--status job-link--status--bg2"><span>新卒</span></div>
 										</div>
 										<div class="job-link--ratings">
 											<span class="job-link--ratings__txt">人間関係</span>
 											<div class="job-link--ratings__wrap">
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
 											</div>
 										</div>
 										<h5 class="job-link--sub-head">[ 工場、製造スタッフ ]</h5>
@@ -397,18 +397,18 @@
 									<a href="" class="job-link">
 										<div class="job-link--img-wrap">
 											<figure class="job-link--img">
-												<img src="/images/top/sect-5/img-7.jpg" alt="">
+												<img src="/saiiku/images/top/sect-5/img-7.jpg" alt="">
 											</figure>
 											<div class="job-link--status job-link--status--bg1"><span>新卒<br>中途</span></div>
 										</div>
 										<div class="job-link--ratings">
 											<span class="job-link--ratings__txt">人間関係</span>
 											<div class="job-link--ratings__wrap">
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
-												<span class="job-link--ratings__star"><img src="/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
+												<span class="job-link--ratings__star"><img src="/saiiku/images/common/star-icon.svg" alt=""></span>
 											</div>
 										</div>
 										<h5 class="job-link--sub-head">[ 工場、製造スタッフ ]</h5>
@@ -425,10 +425,10 @@
 		</main>
 
 		<footer class="footer-top">
-			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer_box.php"); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/footer_box.php"); ?>
 		</footer>
 	</div><!-- //AllBox -->
-	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/saiiku/inc/tag/footer_tag.php"); ?>
 
 	<script>
 		const swiper1 = new Swiper('.top_swiper', {
