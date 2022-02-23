@@ -423,12 +423,28 @@ footer .footer_inner .job-information .job--item .row .col h5 .map-icon .cls-1 {
   fill: #fff;
 }
 
-footer .footer_inner .job-information .job--item .row .col p {
+footer .footer_inner .job-information .job--item .row .col ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .footer_inner .job-information .job--item .row .col ul li:not(:last-child)::after {
+  content: '|';
+  margin: 0 10px;
+  color: #fff;
+}
+
+footer .footer_inner .job-information .job--item .row .col ul li a {
   line-height: 21px;
   letter-spacing: .03em;
   color: #fff;
   font-weight: 400;
   font-size: 14px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 footer .footer_inner .copy {
@@ -1282,7 +1298,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_3 .wrapper .container .content .col a h3 {
-  width: calc(100%  - 101px);
+  width: calc(100%  - 110.5px);
   font-size: 21px;
   font-weight: 700;
   letter-spacing: .07em;
@@ -1292,11 +1308,11 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_3 .wrapper .container .content .col a .arrow-icon {
-  width: 14px;
+  width: 24px;
 }
 
 #Top main .sect_4 .wrapper {
-  padding: 60px 0 80px;
+  padding: 60px 0 50px;
   background-color: #fffbf4;
 }
 
@@ -1391,11 +1407,17 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_4 .wrapper .container .content .row .col a .post-data .post-date {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 11px;
   letter-spacing: .08em;
-  line-height: 31.2px;
+  line-height: 20px;
   color: #9b9b9b;
+}
+
+#Top main .sect_4 .wrapper .container .content .row .col a .post-data .post-date span {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 400;
 }
 
 #Top main .sect_4 .wrapper .container .content .btn-news-list {

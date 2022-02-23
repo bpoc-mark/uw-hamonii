@@ -232,7 +232,7 @@
                 text-align: center;
               }
               h3{
-                width: calc(100%  - 101px);
+                width: calc(100%  - 110.5px);
                 font-size: 21px;
                 font-weight: 700;
                 letter-spacing: .07em;
@@ -241,7 +241,7 @@
                 padding: 0 0 0 20px;
               }
               .arrow-icon{
-                width: 14px;
+                width: 24px;
               }
             }
           }
@@ -251,7 +251,7 @@
   }
   .sect_4{
     .wrapper{
-      padding: 60px 0 80px;
+      padding: 60px 0 50px;
       background-color: #fffbf4;
       .container{
         .content{
@@ -321,11 +321,14 @@
                     }
                   }
                   .post-date{
-                    font-weight: 400;
+                    @include Montserrat(400);
                     font-size: 11px;
                     letter-spacing: .08em;
-                    line-height: 31.2px;
+                    line-height: 20px;
                     color: #9b9b9b;
+                    span{
+                      @include Noto_Sans(400);
+                    }
                   }
                 }
               }

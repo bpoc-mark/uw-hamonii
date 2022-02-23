@@ -39,25 +39,25 @@
 							<div class="swiper-slide slide-img-1">
 								<picture >
 									<source srcset="/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
-									<img src="/images/top/sect-1/img_1.jpg" alt="大型冷凍・冷蔵庫">
+									<img src="/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
 								</picture>
 							</div>
 							<div class="swiper-slide slide-img-2">
 								<picture >
 									<source srcset="/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
-									<img src="/images/top/sect-1/img_1.jpg" alt="大型冷凍・冷蔵庫">
+									<img src="/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
 								</picture>
 							</div>
 							<div class="swiper-slide slide-img-3">
 								<picture >
 									<source srcset="/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
-									<img src="/images/top/sect-1/img_1.jpg" alt="大型冷凍・冷蔵庫">
+									<img src="/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
 								</picture>
 							</div>
 							<div class="swiper-slide slide-img-4">
 								<picture >
 									<source srcset="/images/top/sect-1/sp/img_1.jpg" media="(max-width: 899px)">
-									<img src="/images/top/sect-1/img_1.jpg" alt="大型冷凍・冷蔵庫">
+									<img src="/images/top/sect-1/img_1.jpg" alt="働きがいが見つかる採育ちゃんねる">
 								</picture>
 							</div>
 						</div>
@@ -74,31 +74,57 @@
 							<div class="row">
 								<div class="col">
 									<div class="select-box select_s--icon1">
-										<select name="select_s" required value="" title="">
-											<option name="select_s[]" value="" disabled="disabled" selected hidden>すべての業種</option>
-											<option name=" select_s[]" value="セレクト1">セレクト1</option>
-											<option name="select_s[]" value="セレクト2">セレクト2</option>
-											<option name="select_s[]" value="セレクト3">セレクト3</option>
+										<select name="select1" required value="" title="">
+											<option name="select1[]" value="" disabled="disabled" selected hidden>すべての業種</option>
+											<option name=" select1[]" value="営業（ルート営業）">営業（ルート営業）</option>
+											<option name="select1[]" value="営業（新規開拓）">営業（新規開拓）</option>
+											<option name="select1[]" value="営業（来店来社）">営業（来店来社）</option>
+											<option name="select1[]" value="販売">販売</option>
+											<option name=" select1[]" value="接客・サービス">接客・サービス</option>
+											<option name="select1[]" value="事務">事務</option>
+											<option name="select1[]" value="製造">製造</option>
+											<option name=" select1[]" value="軽作業・物流">軽作業・物流</option>
+											<option name="select1[]" value="施工管理">施工管理</option>
+											<option name="select1[]" value="技術">技術</option>
+											<option name=" select1[]" value="設計">設計</option>
+											<option name="select1[]" value="SE・プログラマー">SE・プログラマー</option>
+											<option name="select1[]" value="WEBデザイナー">WEBデザイナー</option>
+											<option name=" select1[]" value="看護・人的ケア">看護・人的ケア</option>
+											<option name="select1[]" value="総合職">総合職</option>
+											<option name="select1[]" value="その他">その他</option>
 										</select>
 									</div>
 								</div>
 								<div class="col">
 									<div class="select-box select_s--icon2">
-										<select name="select_s" required value="" title="">
-											<option name="select_s[]" value="" disabled="disabled" selected hidden>すべての職種</option>
-											<option name=" select_s[]" value="セレクト1">セレクト1</option>
-											<option name="select_s[]" value="セレクト2">セレクト2</option>
-											<option name="select_s[]" value="セレクト3">セレクト3</option>
+										<select name="select2" required value="" title="">
+											<option name="select2[]" value="" disabled="disabled" selected hidden>すべての職種</option>
+											<option name="select2[]" value="ものづくり（製造）">ものづくり（製造）</option>
+											<option name="select2[]" value="建設/ハウスメーカー">建設/ハウスメーカー</option>
+											<option name="select2[]" value="不動産・インテリア">不動産・インテリア</option>
+											<option name="select2[]" value="物流・輸送">物流・輸送</option>
+											<option name="select2[]" value="販売">販売</option>
+											<option name="select2[]" value="医療・福祉・リハビリ">医療・福祉・リハビリ</option>
+											<option name="select2[]" value="IT・WEB">IT・WEB</option>
+											<option name="select2[]" value="電気・設備・保安">電気・設備・保安</option>
+											<option name="select2[]" value="観光・宿泊・飲食サービス">観光・宿泊・飲食サービス</option>
+											<option name="select2[]" value="広告デザイン・サービス">広告デザイン・サービス</option>
+											<option name="select2[]" value="士業（税理・労務・司法・弁護）">士業（税理・労務・司法・弁護）</option>
+											<option name="select2[]" value="金融・保険・証券">金融・保険・証券</option>
+											<option name="select2[]" value="保育・教育">保育・教育</option>
+											<option name="select2[]" value="公務員">公務員</option>
+											<option name="select2[]" value="その他">その他</option>
 										</select>
 									</div>
 								</div>
 								<div class="col">
 									<div class="select-box select_s--icon3">
-										<select name="select_s" required value="" title="">
-											<option name="select_s[]" value="" disabled="disabled" selected hidden>すべての勤務地</option>
-											<option name=" select_s[]" value="セレクト1">セレクト1</option>
-											<option name="select_s[]" value="セレクト2">セレクト2</option>
-											<option name="select_s[]" value="セレクト3">セレクト3</option>
+										<select name="select3" required value="" title="">
+											<option name="select3[]" value="" disabled="disabled" selected hidden>すべての勤務地</option>
+											<option name=" select3[]" value="静岡県西部地域">静岡県西部地域</option>
+											<option name="select3[]" value="静岡県内愛知県内">静岡県内愛知県内</option>
+											<option name="select3[]" value="近隣県まで（神奈川・山梨・岐阜県等）">近隣県まで（神奈川・山梨・岐阜県等）</option>
+											<option name=" select3[]" value="全国可能">全国可能</option>
 										</select>
 									</div>
 								</div>
@@ -123,7 +149,9 @@
 										<img src="/images/top/sect-3/img_1.svg" alt="">
 									</figure>
 									<h3>求人情報</h3>
-									<img class="arrow-icon" src="/images/top/sect-3/arrow-icon.svg" alt="">
+									<div class="arrow-wrap">
+										<img class="arrow-icon" src="/images/top/sect-3/arrow-icon.svg" alt="">
+									</div>
 								</a>
 							</div>
 							<div class="col">
@@ -132,7 +160,9 @@
 										<img src="/images/top/sect-3/img_2.svg" alt="">
 									</figure>
 									<h3>就活応援コラム</h3>
-									<img class="arrow-icon" src="/images/top/sect-3/arrow-icon.svg" alt="">
+									<div class="arrow-wrap">
+										<img class="arrow-icon" src="/images/top/sect-3/arrow-icon.svg" alt="">
+									</div>
 								</a>
 							</div>
 							<div class="col">
@@ -141,7 +171,9 @@
 										<img src="/images/top/sect-3/img_3.svg" alt="">
 									</figure>
 									<h3>採育ニュース</h3>
-									<img class="arrow-icon" src="/images/top/sect-3/arrow-icon.svg" alt="">
+									<div class="arrow-wrap">
+										<img class="arrow-icon" src="/images/top/sect-3/arrow-icon.svg" alt="">
+									</div>
 								</a>
 							</div>
 						</div>
@@ -161,8 +193,8 @@
 										</figure>
 										<div class="post-data">
 											<span class="status">[ NEW ]</span>
-											<h4 class="post-ttl txt-new">就活オンライン商談会<br>実施しました</h4>
-											<p class="post-date">2021.02.26 [ 求人情報 ]</p>
+											<h4 class="post-ttl">就活オンライン商談会<br>実施しました</h4>
+											<p class="post-date">2021.02.26 <span class="info">[ 求人情報 ]</span></p>
 										</div>
 									</a>
 								</div>
@@ -173,7 +205,7 @@
 										</figure>
 										<div class="post-data">
 											<h4 class="post-ttl">2021年度就活アンケート<br>データ公開</h4>
-											<p class="post-date">2021.02.26 [ 求人情報 ]</p>
+											<p class="post-date">2021.02.26 <span class="info">[ 求人情報 ]</span></p>
 										</div>
 									</a>
 								</div>
@@ -184,7 +216,7 @@
 										</figure>
 										<div class="post-data">
 											<h4 class="post-ttl">就活生が企業に取材！</h4>
-											<p class="post-date">2021.02.26 [ 求人情報 ]</p>
+											<p class="post-date">2021.02.26 <span class="info">[ 求人情報 ]</span></p>
 										</div>
 									</a>
 								</div>

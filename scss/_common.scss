@@ -153,6 +153,7 @@ header {
         font-size: 18px;
         letter-spacing: .05em;
         color: #000;
+        transition: .3s ease-in-out;
         &--active{
           color: #0aa63e;
         }
@@ -161,6 +162,9 @@ header {
         }
         @include is-max(1180px){
           font-size: 14px;
+        }
+        &:hover{
+          color: #0aa63e;
         }
         &__contact{
           display: flex;
@@ -266,6 +270,10 @@ footer {
         font-size: 14px;
         color: #fff;
         letter-spacing: .2em;
+        transition: .3s ease-in-out;
+        &:hover{
+          opacity: .7;
+        }
         &--regular{
           font-weight: 400;
         }
@@ -335,11 +343,28 @@ footer {
                   }
                 }
               }
-              p{
-                line-height: 24px;
-                letter-spacing: .03em;
-                color: #fff;
-                font-weight: 400;
+              ul{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                  &:not(:last-child){
+                    &::after{
+                      content: '|';
+                      margin: 0 10px;
+                      color: #fff;
+                    }
+                  }
+                  a{
+                    line-height: 24px;
+                    letter-spacing: .03em;
+                    color: #fff;
+                    font-weight: 400;
+                    transition: .3s ease-in-out;
+                    &:hover{
+                      opacity: .7;
+                    }
+                  }
+                }
               }
             }
           }

@@ -218,6 +218,19 @@
                 margin: 0 0 0 0 ;
               }
               .job-link{
+                &:hover{
+                  .job-link--img{
+                    img{
+                      transform: scale(1.1, 1.1);
+                    }
+                  }
+                  .job-link--title{
+                    color: #407dd0;
+                  }
+                  .job-link--desc{
+                    color: #407dd0;
+                  }
+                }
                 &--img-wrap{
                   position: relative;
                   overflow: hidden;
@@ -225,7 +238,9 @@
                   border: 1px solid #ebebeb;
                 }
                 &--img{
-
+                  img{
+                    transition: .3s ease-in-out;
+                  }
                 }
                 &--status{
                   display: flex;
@@ -303,10 +318,12 @@
                   letter-spacing: .05em;
                   line-height: 25px;
                   margin: 15px 0 11px;
+                  transition: .3s ease-in-out;
                 }
                 &--desc{
                   letter-spacing: .05em;
                   line-height: 25px;
+                  transition: .3s ease-in-out;
                 }
               }
             }

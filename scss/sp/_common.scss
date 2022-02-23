@@ -323,12 +323,26 @@ footer {
                   }
                 }
               }
-              p{
-                line-height: 21px;
-                letter-spacing: .03em;
-                color: #fff;
-                font-weight: 400;
-                font-size: 14px;
+              ul{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                  &:not(:last-child){
+                    &::after{
+                      content: '|';
+                      margin: 0 10px;
+                      color: #fff;
+                    }
+                  }
+                  a{
+                    line-height: 21px;
+                    letter-spacing: .03em;
+                    color: #fff;
+                    font-weight: 400;
+                    font-size: 14px;
+                    transition: .3s ease-in-out;
+                  }
+                }
               }
             }
           }

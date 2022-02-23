@@ -172,6 +172,13 @@
                 color: #fff;
                 font-size: 18px;
                 letter-spacing: .07em;
+                transition: .3s ease-in-out;
+                box-sizing: border-box;
+                &:hover{
+                  background-color: #fff;
+                  border: 3px solid #407dd0;
+                  color: #313131;
+                }
               }
             }
           }
@@ -230,14 +237,56 @@
             a{
               display: block;
               text-align: center;
+              &:hover{
+                figure{
+                  img{
+                    transform: scale(1.1, 1.1);
+                  }
+                }
+                .arrow-wrap{
+                  &::before{
+                    left: 0;
+                  }
+                  .arrow-icon{
+                    right: -40px;
+                  }
+                }
+              }
+              figure{
+                img{
+                  transition: .3s ease-in-out;
+                }
+              }
               h3{
                 font-size: 26px;
                 font-weight: 700;
                 letter-spacing: .07em;
                 color: #407dd0;
               }
-              .arrow-icon{
+              .arrow-wrap{
+                position: relative;
                 width: 30px;
+                margin: 0 auto;
+                overflow: hidden;
+                .arrow-icon{
+                  position: relative;
+                  right: 0;
+                  transition: .3s ease-in-out;
+                }
+                &::before{
+                  content: "";
+                  display: block;
+                  width: 30px;
+                  height: 9.8px;
+                  background-image: url(/images/top/sect-3/arrow-icon.svg);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  position: absolute;
+                  top: 6px;
+                  left: -40px;
+                  transition: .3s ease-in-out;
+                }
               }
             }
           }
@@ -290,8 +339,25 @@
                 display: flex;
                 align-items: center;
                 flex-wrap: wrap;
+                &:hover{
+                  .post-data{
+                    .post-ttl{
+                      color: #407dd0;
+                    }
+                  }
+                  figure{
+                    img{
+                      transform: scale(1.05, 1.05);
+                    }
+                  }
+                }
                 figure{
+                  overflow: hidden;
                   width: 130px;
+                  border-radius: 5px;
+                  img{
+                    transition: .3s ease-in-out;
+                  }
                 }
                 .post-data{
                   width: calc(100% - 130px);
@@ -309,15 +375,16 @@
                     line-height: 27px;
                     margin: 0 0 10px;
                     color: #313131;
-                    &.txt-new{
-                      color: #407dd0;
-                    }
+                    transition: .3s ease-in-out;
                   }
                   .post-date{
-                    font-weight: 400;
+                    @include Montserrat(400);
                     font-size: 13px;
                     letter-spacing: .08em;
                     color: #9b9b9b;
+                    span{
+                      @include Noto_Sans(400);
+                    }
                   }
                 }
               }
@@ -409,6 +476,19 @@
                 margin: 0 0 0 0 ;
               }
               .job-link{
+                &:hover{
+                  .job-link--img{
+                    img{
+                      transform: scale(1.1, 1.1);
+                    }
+                  }
+                  .job-link--title{
+                    color: #407dd0;
+                  }
+                  .job-link--desc{
+                    color: #407dd0;
+                  }
+                }
                 &--img-wrap{
                   position: relative;
                   overflow: hidden;
@@ -416,7 +496,9 @@
                   border: 1px solid #ebebeb;
                 }
                 &--img{
-
+                  img{
+                    transition: .3s ease-in-out;
+                  }
                 }
                 &--status{
                   display: flex;
@@ -494,10 +576,12 @@
                   letter-spacing: .05em;
                   line-height: 25px;
                   margin: 0 0 11px;
+                  transition: .3s ease-in-out;
                 }
                 &--desc{
                   letter-spacing: .05em;
                   line-height: 25px;
+                  transition: .3s ease-in-out;
                 }
               }
             }
